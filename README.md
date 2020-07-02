@@ -53,3 +53,6 @@ git checkout -b new-branch
 git push --set-upstream origin new-branch
 (Now you have update the new branch to github. Go to github and make a pull request from new-branch to master)
 ```
+
+## More on coding
+It is optional, but if you feel it useful, write a min weight decoder in C/C++ or GAP. You can use existing code as well.
