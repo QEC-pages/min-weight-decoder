@@ -56,3 +56,6 @@ git push --set-upstream origin new-branch
 
 ## More on coding
 It is optional, but if you feel it useful, write a min weight decoder in C/C++ or GAP. You can use existing code as well.
+
+
+more to be done
