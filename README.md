@@ -11,6 +11,7 @@ write a min weight decoder for Hamming code, both clasical and quantum.
 - [[7,1,3]] quantum code
 
 
+
 # TODO
 create a branch, edit info in the following format, and then send your update to master branch.
 
@@ -31,6 +32,24 @@ git checkout -b new-branch
 git status
 git add -A
 git commit -m "what I have done?"
-
+git checkout master
+git merge new-branch
+git checkout new-branch
+(continue editing and repeat)
+```
+You may get a conflict error if someone else updated the master branch. To resolve it, it is better to pull all updates to your branch first.
+```
+git checkout new-branch
+git check master
+(It will show you if there is a conflict. If yes, find the file and edit it. Then commit the changes)
+git checkout master
+git check new-branch
 ```
 
+To do it remotely
+```
+git checkout -b new-branch
+(edit files and commit)
+git push --set-upstream origin new-branch
+(Now you have update the new branch to github. Go to github and make a pull request from new-branch to master)
+```
