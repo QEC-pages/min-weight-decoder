@@ -46,7 +46,7 @@ git checkout master
 git check new-branch
 ```
 
-To do it remotely
+To edit it locally and send pull request on GitHub
 ```
 git checkout -b new-branch
 (edit files and commit)
@@ -57,5 +57,8 @@ git push --set-upstream origin new-branch
 ## More on coding
 It is optional, but if you feel it useful, write a min weight decoder in C/C++ or GAP. You can use existing code as well.
 
+Sample code: 
+https://github.com/WeileiZeng/weilei_lib/blob/doc/dist.h
+https://github.com/WeileiZeng/weilei_lib/blob/doc/dist.cpp
 
-more to be done
+
