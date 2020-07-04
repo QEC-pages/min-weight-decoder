@@ -60,5 +60,4 @@ It is optional, but if you feel it useful, write a min weight decoder in C/C++ o
 Sample code: 
 https://github.com/WeileiZeng/weilei_lib/blob/doc/dist.h
 https://github.com/WeileiZeng/weilei_lib/blob/doc/dist.cpp
-
-
+https://github.com/WeileiZeng/weilei_lib/blob/master/test_lib.cpp
